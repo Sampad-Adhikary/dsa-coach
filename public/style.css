@@ -167,3 +167,20 @@ html{
 .footerA:hover{
     color: #A8755B;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 100px) and (max-width: 1000px){
+    .hero{
+        text-align: center;
+    }
+    .heroImg{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:100) and (max-width: 600){
+    .heroImg{
+        width: 20%;
+    }
+}
