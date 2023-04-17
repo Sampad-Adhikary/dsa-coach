@@ -1,0 +1,104 @@
+html{
+    background-color: #F5F5F5;
+    /* text-align: center; */
+}
+
+#root{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F5F5F5;
+    margin-top: 1vw;
+    
+}
+
+/* Navbar */
+.myNav{
+    background-color: #DEF5E5;
+    width: 95%;
+    margin: 0 auto ;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #425F57;
+    border-width: 2px;
+    text-align: center;
+}
+
+.navList{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navItems{
+    color: #425F57;
+    text-decoration: none;
+    font-size: 1.25rem;
+    margin: 25px;
+    font-weight: 600;
+}
+
+.navItems:hover{
+    color: #4FA095;
+}
+
+/* HERO SECTION */
+
+.hero{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.heroText{
+    padding: 5%;
+}
+
+.hero4{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #425F57;
+    
+}
+
+.hero2{
+    margin-top: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #425F57;
+    
+}
+
+/* ABOUT */
+
+.about{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #DEF5E5;
+    text-align: center;
+    padding: 4%;
+}
+
+.aboutText{
+    margin-top: 2% ;
+    color: #425F57;
+    font-size: 1rem;
+}
+
+/* FOOTER */
+
+.Footer{
+    margin-top: 5%;
+    padding: 4%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: #DEF5E5;
+}
+
+.footerA{
+    color: #425F57;
+    text-decoration: none;
+}
+
+.footerA:hover{
+    color: #A8755B;
+}
