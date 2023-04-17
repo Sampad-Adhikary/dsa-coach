@@ -45,8 +45,8 @@ html{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .heroText{
@@ -83,6 +83,71 @@ html{
     color: #425F57;
     font-size: 1rem;
 }
+
+/* CARD */
+
+.cardList{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-row{
+    padding: 2%;
+}
+
+
+.cardItem{
+    text-align: center;
+}
+
+.card{
+    width: 16rem;
+    margin: 2% auto;
+    background-color: #4FA095;
+}
+
+.card-body{
+    text-align: left;
+    width: 16rem;
+    background-color: #DEF5E5;
+    color:#425F57;
+}
+
+.cardHeading{
+    margin-bottom: 4%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #425F57;
+}
+
+.cardSub{
+    margin-top: 6%;
+    font-size: 1rem;
+    color: #425F57;
+}
+
+.cardBtn{
+    margin-top: 10%;
+    /* margin-left: 20%; */
+    align-items: center;
+    width: 50%;
+    height: 20%;
+    background-color: #425F57;
+    color: #fff;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.cardBtn:hover{
+    transform: scale(1.1);
+}
+
+
+
 
 /* FOOTER */
 

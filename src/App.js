@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import About from "./components/about";
-import Card from "./components/card";
+import CardGroup from "./components/cardlist";
 import Footer from "./components/footer";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Card />
+      <CardGroup />
       <Footer />
     </div>
   );
