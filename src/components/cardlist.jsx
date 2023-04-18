@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./card";
 import cardData from "../data/cardData";
-import { useState } from "react";
 
 export default function CardGroup(props) {
   return (

@@ -137,7 +137,7 @@ export default function Table(props) {
       <h4 className="hero4" id="tableHeader">{tableState}</h4>
       <div className="searchBox">
       <form>
-        <input type="text" value={name} name="inputText" onChange={changehandler} placeholder="Enter the topic you want to Start..."/>
+        <input className="form-control inputText" type="text" value={name} name="inputText" onChange={changehandler} placeholder="Enter the topic you want to Start..."/>
         <button type="submit" onClick={submitAction} className="searchBtn">Search</button>
       </form>
       </div>

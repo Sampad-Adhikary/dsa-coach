@@ -39,6 +39,8 @@ html{
 
 .navItems:hover{
     color: #4FA095;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /* HERO SECTION */
@@ -55,8 +57,15 @@ html{
     padding: 5%;
 }
 
+.Hero4{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #425F57;
+    
+}
+
 .hero4{
-    font-size: 2.25rem;
+    font-size: 2.35rem;
     font-weight: 700;
     color: #425F57;
     
@@ -64,7 +73,7 @@ html{
 
 .hero2{
     margin-top: 10px;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 800;
     color: #425F57;
     
@@ -149,6 +158,7 @@ html{
 
 .cardBtn:hover{
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /* TABLE */
@@ -167,7 +177,23 @@ html{
     margin-bottom: 2%;
 }
 
+.searchBtn{
+    background-color: #4FA095;
+    color: #fff;
+    border:none;
+    margin: 15px;
+    width:200px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 
+.searchBtn:hover{
+    background-color: #425F57;
+    scale: 1.1;
+    transition: 0.5s;
+}
 
 /* FOOTER */
 

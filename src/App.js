@@ -5,7 +5,6 @@ import About from "./components/about";
 import CardGroup from "./components/cardlist";
 import Footer from "./components/footer";
 import Table from "./components/table";
-import { useState } from "react";
 
 function App(props) {
   return (

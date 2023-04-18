@@ -14,8 +14,8 @@ export default function Hero() {
           />
         </div>
         <div className="col-lg-6 col-md-12 col-sm-12 heroText">
-          <h4 className="hero4">Want to Learn DSA ?</h4>
-          <h4 className="hero4">But can’t keep the consistency?</h4>
+          <h4 className="Hero4">Want to Learn DSA ?</h4>
+          <h4 className="Hero4">But can’t keep the consistency?</h4>
           <h2 className="hero2">We got you covered...</h2>
         </div>
       </div>
