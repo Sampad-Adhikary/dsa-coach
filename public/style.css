@@ -214,6 +214,10 @@ html{
     color: #A8755B;
 }
 
+.iconFoo{
+    margin: 10px;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 100px) and (max-width: 1000px){
