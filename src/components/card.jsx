@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
-export default function CardGroup() {
+export default function CardGroup(props) {
+
   return (
-    <div class="card">
-      <div class="card-body">
-        <h5 class="cardHeading">Array</h5>
-        <h6 class="cardSub">Total Questions: </h6>
-        <h6 class="cardSub">Attempted: </h6>
-        <button className="cardBtn">Start Now</button>
+    <div className="card">
+      <div className="card-body">
+        <h5 className="cardHeading">{props.title}</h5>
+        <h6 className="cardSub">Total Questions: {props.total}</h6>
+        <h6 className="cardSub">Attempted: </h6>
+        <a href="#about"><button type="submit" className="cardBtn">Start Now</button></a>
       </div>
     </div>
   );
