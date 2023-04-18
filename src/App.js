@@ -4,6 +4,7 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import CardGroup from "./components/cardlist";
 import Footer from "./components/footer";
+import Table from "./components/table";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <CardGroup />
+      <Table />
       <Footer />
     </div>
   );
