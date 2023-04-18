@@ -92,9 +92,12 @@ html{
     margin-top: 5%;
     margin-bottom: 5%;
     width: 90%;
+    max-height: 500px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .card-row{
@@ -151,12 +154,17 @@ html{
 /* TABLE */
 .problemTable{
     width: 90%;
-    /* max-height: 200px ; */
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20px 20px 0 0;
     background-color: #F5F5F5;
     text-align: center;
+}
+
+#tableHeader{
+    margin-bottom: 2%;
 }
 
 

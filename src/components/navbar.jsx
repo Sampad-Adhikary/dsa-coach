@@ -14,7 +14,7 @@ export default function Navbar() {
           <a className="navItems" aria-current="page" href="#hero">Home</a>
         </li>
         <li>
-          <a className="navItems" href="#">DSA Sheet</a>
+          <a className="navItems" href="#topics">DSA Sheet</a>
         </li>
         <li>
           <a className="navItems" href="#about">About</a>

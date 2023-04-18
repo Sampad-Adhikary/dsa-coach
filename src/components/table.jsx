@@ -1,7 +1,6 @@
 import React from "react";
 import DataTable from "react-data-table-component";
 import Data from "../tableData"
-import { useState, useEffect } from "react";
 
 export default function Table() {
   const columns = [
@@ -19,7 +18,7 @@ export default function Table() {
     },
     {
       name: "URL",
-      selector: (row) => <a href={row.URL} target="blank"><img src="resources/gfg.png" width="80px"/></a>,
+      selector: (row) => <a href={row.URL} target="blank"><img src="resources/gfg.png" width="80px" alt="gfg"/></a>,
     },
   ];
 
@@ -48,6 +47,7 @@ export default function Table() {
 
   return (
     <div className="problemTable">
+      <h4 className="hero4" id="tableHeader">Arrays</h4>
       <DataTable columns={columns} data={Data} customStyles={cStyle} selectableRows pagination fixedHeader />
     </div>
   );
