@@ -20,7 +20,7 @@ export default function Table(props) {
 
   const [name,setName] = useState("");
   const[tableState,setTableState] = useState("Array")
-  const [data,setData] = useState(Matrix);
+  const [data,setData] = useState(Array);
   
   const columns = [
     {
