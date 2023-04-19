@@ -85,25 +85,25 @@ export default function Table(props) {
       case "Array":
         setData(Array);
         break;
-      case "Matrix":
+      case "Matrix (2-D Array)":
         setData(Matrix);
         break;
       case "Strings":
         setData(Strings);
         break;
-      case "Search":
+      case "Search & Sort":
         setData(Search);
         break;
-      case "LinkedList":
+      case "Linked Lists":
         setData(LinkedList);
         break;
-      case "BitManipulation":
+      case "Bit Manipulation":
         setData(BitManipulation);
         break;
-      case "BinaryTree":
+      case "Binary Trees":
         setData(BinaryTree);
         break;
-      case "Bst":
+      case "BST":
         setData(Bst);
         break;
       case "Greedy":
@@ -112,7 +112,7 @@ export default function Table(props) {
       case "BackTracking":
         setData(BackTracking);
         break;
-      case "StackQueue":
+      case "Stacks & Queues":
         setData(StackQueue);
         break;
       case "Heap":
@@ -124,7 +124,7 @@ export default function Table(props) {
       case "Trie":
         setData(Trie);
         break;
-      case "Dp":
+      case "Dynamic Programming":
         setData(Dp);
         break;
       default:
@@ -133,15 +133,17 @@ export default function Table(props) {
   }
 
   return (
-    <div className="problemTable">
+    <section id="table">
+      <div className="problemTable">
       <h4 className="hero4" id="tableHeader">{tableState}</h4>
       <div className="searchBox">
       <form>
-        <input className="form-control inputText" type="text" value={name} name="inputText" onChange={changehandler} placeholder="Enter the topic you want to Start..."/>
+        <input className="form-control inputText" type="text" value={name} name="inputText" onChange={changehandler} placeholder="Search any topic from above..."/>
         <button type="submit" onClick={submitAction} className="searchBtn">Search</button>
       </form>
       </div>
       <DataTable columns={columns} data={data} customStyles={cStyle} selectableRows pagination fixedHeader />
     </div>
+    </section>
   );
 }

@@ -7,6 +7,7 @@ export default function CardGroup(props) {
     <section id="topics">
       <div className="cardList">
         <h4 className="hero4">Topics</h4>
+        <p className="topicPara">Click on topic title to copy and then search.</p>
         <div className="row row-cols-1 row-cols-md-3  lg-4 card-row ">
           {cardData.map(item=>{
             return(

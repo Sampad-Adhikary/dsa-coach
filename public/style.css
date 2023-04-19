@@ -109,6 +109,10 @@ html{
     overflow-x: hidden;
 }
 
+.topicPara{
+    color:#425F57;
+}
+
 .card-row{
     padding: 2%;
 }
