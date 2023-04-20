@@ -69,18 +69,12 @@ export default function Table(props) {
   }
 
   function changehandler(e){
-    // const textInput = ;
     setName(e.target.value);
   }
 
   function submitAction(e){
     e.preventDefault();
     setTableState(name);
-    if(tableState === "Array"){
-      setData(Array);
-    }else if(tableState === "Matrix"){
-      setData(Matrix);
-    }
     switch(tableState){
       case "Array":
         setData(Array);
